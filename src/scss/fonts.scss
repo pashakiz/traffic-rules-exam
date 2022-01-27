@@ -15,12 +15,12 @@
 
 @font-face {
   font-family: 'autoclub';
-  src: url('autoclub/autoclub.eot?55137236');
-  src: url('autoclub/autoclub.eot?55137236#iefix') format('embedded-opentype'),
-       url('autoclub/autoclub.woff2?55137236') format('woff2'),
-       url('autoclub/autoclub.woff?55137236') format('woff'),
-       url('autoclub/autoclub.ttf?55137236') format('truetype'),
-       url('autoclub/autoclub.svg?55137236#autoclub') format('svg');
+  src: url('../fonts/autoclub/autoclub.eot');
+  src: url('../fonts/autoclub/autoclub.eot#iefix') format('embedded-opentype'),
+       url('../fonts/autoclub/autoclub.woff2') format('woff2'),
+       url('../fonts/autoclub/autoclub.woff') format('woff'),
+       url('../fonts/autoclub/autoclub.ttf') format('truetype'),
+       url('../fonts/autoclub/autoclub.svg#autoclub') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -30,7 +30,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'autoclub';
-    src: url('../font/autoclub.svg?55137236#autoclub') format('svg');
+    src: url('../font/autoclub.svg#autoclub') format('svg');
   }
 }
 */
