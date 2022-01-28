@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru" class="sticky-footer">
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="stylesheet" href="/assets/css/normalize.css">
+  <link rel="stylesheet" href="/assets/css/bootstrap.css">
+  <link rel="stylesheet" href="/assets/css/autoclub.css">
+  <title>Автошкола | Билеты ПДД ДНР</title>
+</head>
+<body>
+  <header class="header test">
+    <nav id="navigation" class="conteiner navigation">
+      <ul>
+        <li><a href="/" class="icon-left-open">На главную</a></li>
+        <li><a href="/#price">Цены</a></li>
+        <li><a href="/#contacts">Контакты</a></li>
+        <li><a href="/exam" class="selected">Экзамен</a></li>
+      </ul>
+    </nav>
+    <button id="navtoggle" class="btn navtoggle" type="button">
+      <span class="navtoggle__iconbar"></span>
+      <span class="navtoggle__iconbar"></span>
+      <span class="navtoggle__iconbar"></span>
+    </button>
+  </header>
+
+  <script>
+    const navigation = document.getElementById('navigation');
+    const navtoggle = document.getElementById('navtoggle');
+    navtoggle.onclick = function(e) {
+      navigation.classList.toggle('expand');
+    }
+  </script>

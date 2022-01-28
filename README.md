@@ -11,7 +11,7 @@ To install all required packages
 `npm start`
 
 Runs the app in development mode.
-Open http://localhost:3000 to view it in the browser.
+Open http://localhost:4250 to view it in the browser.
 
 `npm run build`
 
