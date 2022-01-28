@@ -38,6 +38,7 @@
     "postcss": "^8.3.5",
     "postcss-loader": "^6.1.1",
     "postcss-preset-env": "^7.2.3",
+    "redux-devtools": "^3.7.0",
     "resolve-url-loader": "^5.0.0",
     "sass-loader": "^12.1.0",
     "style-loader": "^3.0.0",
@@ -48,7 +49,10 @@
   },
   "browserslist": "defaults",
   "dependencies": {
+    "classnames": "^2.3.1",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "react-redux": "^7.2.6",
+    "redux": "^4.1.2"
   }
 }

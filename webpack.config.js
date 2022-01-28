@@ -27,7 +27,7 @@ function generateHtmlPlugins(templateDir) {
   })
 }
 
-const htmlPlugins = generateHtmlPlugins('./src/html/views')
+const htmlPlugins = generateHtmlPlugins('./public/html/views')
 
 const optimization = () => {
   const config = {
@@ -91,7 +91,7 @@ const babelOptions = preset => {
 module.exports = {
   mode: isProd ? 'production' : 'development',
   target: isProd ? 'browserslist' : 'web',
-  entry: path.resolve(__dirname, './src/js/index.js'),
+  entry: path.resolve(__dirname, './src/index.js'),
   output: {
     filename: 'assets/js/' + filename('js'),
     path: path.resolve(__dirname, 'dist'),
@@ -105,8 +105,8 @@ module.exports = {
   resolve: {
     //extensions: ['.js', '.json', '.png'],
     alias: {
-      '@views': path.resolve(__dirname, 'src/html/views'),
-      '@includes': path.resolve(__dirname, 'src/html/includes'),
+      '@views': path.resolve(__dirname, 'public/html/views'),
+      '@includes': path.resolve(__dirname, 'public/html/includes'),
       '@scss': path.resolve(__dirname, 'src/scss'),
       '@': path.resolve(__dirname, 'src'),
     }
@@ -117,7 +117,7 @@ module.exports = {
       {
         test: /\.html$/,
         type: 'asset/source',
-        include: path.resolve(__dirname, 'src/html/includes'),
+        include: path.resolve(__dirname, 'public/html/includes'),
       },
       {
         test: /\.m?js$/,
@@ -155,11 +155,11 @@ module.exports = {
     new CopyWebpackPlugin({
       patterns: [
         {
-          from: path.resolve(__dirname, 'src/favicon'),
+          from: path.resolve(__dirname, 'public/favicon'),
           to: path.resolve(__dirname, 'dist')
         },
         {
-          from: path.resolve(__dirname, 'src/assets'),
+          from: path.resolve(__dirname, 'public/assets'),
           to: path.resolve(__dirname, 'dist/assets')
         }
       ],
