@@ -1,3 +1,11 @@
+body {
+  font-family: $font_family;
+  font-size: $font_size;
+  font-weight: $font_weight;
+  line-height: $line_height;
+  color: $font_color;
+  background-color: $body_bg_color;
+}
 /*
 body {
   font-family: $font_family;
