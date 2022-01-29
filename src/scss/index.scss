@@ -84,6 +84,9 @@ p {
       border-color: #cacaca !important;
       background-color: #e5e5e5 !important;
     }
+    &:focus {
+      box-shadow: none;
+    }
 }
 
 .btn_tab {
