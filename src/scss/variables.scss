@@ -1,6 +1,17 @@
+// colors
+// ...
+
+// body
 $font_family:               'OpenSans', Arial, sans-serif;
 $font_weight:               400;
 $font_size:                 16px;
 $line_height:               24px;
 $font_color:                var(--bs-body-color);
 $body_bg_color:             #ebebeb;
+
+// .sticky-footer
+$body_mb_mob:               30px;
+$body_mb:                   30px;
+$footer_height_mob:         122px;
+$footer_height:             72px;
+
