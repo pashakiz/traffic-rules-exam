@@ -1,1 +1,8 @@
-.footer {}
+.footer {
+  .contacts {
+    padding: 20px 15px 15px;
+    @media (min-width: 576px) {
+      padding: 12px 15px;
+    }
+  }
+}
