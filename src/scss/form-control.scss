@@ -1,7 +1,7 @@
 @mixin custom-control-label {
   display: block;
   width: 100%;
-  border: 1px solid #f37e00;
+  border: 1px solid $color_orange;
   border-radius: 5px;
   cursor: pointer;
   padding: 5px 15px 5px 35px;
@@ -61,11 +61,11 @@ input[type=radio] {
       pointer-events: none;
       content: "";
       background-color: #fff;
-      border: 1px solid #f37e00;
+      border: 1px solid $color_orange;
       box-sizing: border-box;
     }
     &:hover {
-      border: 1px solid #f37e00;
+      border: 1px solid $color_orange;
       background: #f0e0ca;
     }
     &::after {
@@ -101,12 +101,12 @@ input[type=radio] {
 .custom-control-input {
   &:checked {
     ~ .custom-control-label {
-      border: 1px solid #f37e00;
+      border: 1px solid $color_orange;
       background: #f0e0ca;
       &::before {
         color: #fff;
-        border-color: #f37e00;
-        background-color: #f37e00;
+        border-color: $color_orange;
+        background-color: $color_orange;
       }
     }
   }

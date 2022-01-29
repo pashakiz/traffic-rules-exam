@@ -60,7 +60,7 @@ p {
     outline: none;
     box-sizing: border-box;
     &:hover, &.active {
-      background: #f37e00;
+      background: $color_orange;
       color: #f7f6f6;
     }
     &:disabled {
@@ -82,7 +82,7 @@ p {
     padding: 5px 10px;
     text-align: center;
     margin: 0;
-    border: 1px solid #f37e00;
+    border: 1px solid $color_orange;
     outline: 0;
     text-decoration: none;
     background: transparent;
@@ -90,17 +90,17 @@ p {
 }
 
 .btn2 {
-    border: 1px solid #f37e00;
+    border: 1px solid $color_orange;
     background: #f0e0ca;
     &:hover,
     &.active {
-      background: #f37e00;
+      background: $color_orange;
       color: #f7f6f6;
     }
 }
 
 .btn3 {
-    border: 1px dotted #f37e00;
+    border: 1px dotted $color_orange;
     background: transparent;
     &:hover {
       color: #203f54;
@@ -142,7 +142,7 @@ p {
       background: #ea7f7f;
     }
     &:hover {
-      background: #f37e00;
+      background: $color_orange;
       color: #fff;
     }
 }
@@ -162,7 +162,7 @@ p {
 .exam__tab {
     padding: 10px 10px;
     font-size: 16px;
-    border: 1px solid #f37e00;
+    border: 1px solid $color_orange;
     border-bottom: none;
     line-height: 1.1;
     display: -webkit-box;
@@ -182,8 +182,8 @@ p {
 .exam__content-box {
     padding: 10px 5px;
     background: rgba(245, 236, 220, 0.2);
-    border: 1px solid #f37e00;
-    border-top: 2px solid #f37e00;
+    border: 1px solid $color_orange;
+    border-top: 2px solid $color_orange;
     @media (min-width: 480px) {
       padding: 20px;
     }
@@ -243,7 +243,7 @@ p {
     font-size: 14px;
     text-align: center;
     border-radius: 3px;
-    border: 1px dotted #f37e00;
+    border: 1px dotted $color_orange;
     background: transparent;
     margin: 0 4px 5px 0;
     padding: 0;
@@ -277,7 +277,7 @@ p {
     }
     &.active {
       color: #203f54;
-      border: 1px solid #f37e00;
+      border: 1px solid $color_orange;
       background: #f0e0ca;
       cursor: default;
     }
@@ -376,7 +376,7 @@ p {
   color: #203f54;
   padding: 10px;
   border-radius: 5px;
-  border: 1px solid #f37e00;
+  border: 1px solid $color_orange;
   background-color: #e5e5e5;
 }
 
@@ -456,7 +456,7 @@ p {
     margin: 0 auto;
     padding: 15px;
     text-align: center;
-    border: 1px solid #f37e00;
+    border: 1px solid $color_orange;
     border-radius: 5px;
     background: #efe9e1;
 }
